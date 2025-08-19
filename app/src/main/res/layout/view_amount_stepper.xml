@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stepperRoot"
+    android:layout_width="120dp"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:background="@drawable/background_stepper"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/btnMinus"
+        android:layout_width="36dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="−"
+        android:textSize="18sp"
+        android:background="@drawable/background_stepper_button"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="40dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:gravity="center"
+        android:text="1"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/background_stepper_value"/>
+
+    <TextView
+        android:id="@+id/btnPlus"
+        android:layout_width="36dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="+"
+        android:textSize="18sp"
+        android:background="@drawable/background_stepper_button"
+        android:clickable="true"
+        android:focusable="true"/>
+</LinearLayout>

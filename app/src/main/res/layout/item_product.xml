@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@color/white"
+    android:layout_margin="10dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="0dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minWidth="150dp"
+                android:minHeight="150dp"
+                android:src="@mipmap/ic_launcher_round"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/add_favorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:scaleType="center"
+                android:layout_gravity="right"
+                android:src="@drawable/icon_star_unselected"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textColor="@color/main"
+            android:textSize="14sp"
+            tools:text="15.000 TL" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:layout_marginTop="16dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/montserrat_medium"
+            android:maxLines="2"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:text="Nissan" />
+
+        <TextView
+            android:id="@+id/textView_addCart"
+            style="@style/AppButton"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="18sp"
+            android:text="@string/add_to_cart"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

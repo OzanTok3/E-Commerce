@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main">#2A59FE</color>
+    <color name="grey">#D9D9D9</color>
+    <color name="dark_grey">#C4C4C4</color>
+    <color name="black">#FF000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="light_grey">#333333</color>
+    <color name="light_grey_70">#B2333333</color>
+    <color name="red">#FF0000</color>
+
+    <color name="brand_blue">#2A59FE</color>
+    <color name="search_active_bg">#4D2A59FE</color>
+    <color name="search_normal_bg">#FAEFEFEF</color>
+    <color name="search_hint">#99000000</color>
+    <color name="search_text">#FF000000</color>
+</resources>

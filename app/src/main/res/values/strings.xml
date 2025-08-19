@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">E-Commerce</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="search">Search</string>
+    <string name="error">Error</string>
+    <string name="price">Price</string>
+    <string name="total">Total</string>
+    <string name="Complete">Complete</string>
+    <string name="added_to_cart">Added To Cart</string>
+    <string name="old_to_new">Old To New</string>
+    <string name="new_to_old">New To Old</string>
+    <string name="price_high_to_low">Price High To Low</string>
+    <string name="price_low_to_high">Price Low To High</string>
+    <string name="sort_by">Sort By</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="apply">Apply</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="no_favorites">Favorites list is empty !</string>
+</resources>
