@@ -33,6 +33,10 @@
 
 
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@drawable/shadow_top" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
